@@ -1,48 +1,47 @@
-/* Genel Ayarlar */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial Black', sans-serif;
-    background-color: #a6dbdd; /* Açık mavi arka plan */
+    background-color: #a6dbdd; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Navigasyon Çubuğu */
+
 .navbar {
-    background-color: #0000cd; /* Lacivert üst bant */
+    background-color: #0000cd; 
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
 }
 
-/* Linkleri buton gibi gösteren yeni düzenleme */
+
 .nav-btn {
-    text-decoration: none; /* Link alt çizgisini kaldırır */
+    text-decoration: none; 
     background-color: #add8e6;
     border: 3px solid #708090;
     color: #4b0082;
     padding: 10px 30px;
     font-weight: bold;
-    display: inline-block; /* Genişlik ve yükseklik alabilmesi için */
+    display: inline-block; 
     cursor: pointer;
     text-transform: uppercase;
-    transition: 0.3s; /* Renk geçişini yumuşatır */
+    transition: 0.3s; 
 }
 
 .nav-btn:hover {
-    background-color: #ffffff; /* Fare gelince beyaz olur */
+    background-color: #ffffff; 
 }
 
-/* Aktif sayfa belirtici */
+
 .active {
     background-color: #ffffff; 
     border-color: #030303;
 }
 
-/* Ana Konteyner */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -52,7 +51,7 @@ body {
     gap: 20px;
 }
 
-/* Fotoğraf Sütunları */
+
 .photo-column {
     display: flex;
     flex-direction: column;
@@ -76,7 +75,7 @@ body {
     object-fit: cover;
 }
 
-/* Orta Mesaj Kartı */
+
 .center-content {
     width: 40%;
     display: flex;
@@ -85,7 +84,7 @@ body {
 }
 
 .message-card {
-    background-color: #c0c0c0; /* Gri kart rengi */
+    background-color: #c0c0c0; 
     padding: 30px;
     border-radius: 50px;
     text-align: center;
@@ -109,7 +108,7 @@ body {
     color: rgb(3, 3, 3);
 }
 
-/* Alt Bant */
+
 .footer {
     background-color: #00008b;
     height: 60px;
